@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f98ab60678.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://kit.fontawesome.com/f98ab60678.js" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <header id="header">
+      <nav class="bg-light container navbar navbar-light">
+        <div class="left-side d-flex">
+          <div class="brand-container">
+            <i class="fa-solid fa-book-bookmark"></i>
+            <a class="navbar-brand">Pages</a>
+          </div>
+          <div class="align-items-center d-flex social-media-container">
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="fab fa-linkedin fa-lg"></i
+            ></a>
+          </div>
+        </div>
+        <div class="align-items-center d-flex right-side">
+          <a href="#home">Home</a>
+          <div class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Pages</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown-content">
+            <a href="#about">About</a>
+            <a href="#services" class="mx-2">Services</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <a href="#cart" id="cart" class="mx-2"
+            ><i class="fas fa-shopping-cart"></i>
+            <span class="badge">01</span></a
+          >
+          <button class="btn btn-primary ordertoday-btn">Order Today</button>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row" style=" color: #fff">
+          <div class="col-12 col-md-6 d-flex">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="align-items-center d-flex">
+                <h6 id="welcome-dash"></h6>
+                <h4 id="welcome">welcom to page</h4>
+              </div>
+              <h1 class="py-2">Books are uniquely protabel magic</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+                aliquam sequi quod? Ut tenetur impedit numquam, quae quidem
+                inventore ex,
+              </p>
+
+              <div class="d-flex align-items-center">
+                <button class="btn btn-primary ordertoday-btn">
+                  Order Today
+                </button>
+                <a href="" class="secondary-btn">Read Free Demo</a>
+              </div>
+              <div class="d-flex justify-content-between mt-4">
+                <div class="d-flex">
+                  <div class="dot"></div>
+                  <div>
+                    <h3>Pages:</h3>
+                    <p>586 pages</p>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div class="dot"></div>
+                  <div>
+                    <h3>lenght:</h3>
+                    <p>10 Hours</p>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div class="dot"></div>
+                  <div>
+                    <h3>Ratings:</h3>
+                    <p>4.5/5 (305 ratings)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                class="img-fluid big-image"
+                src="https://global-uploads.webflow.com/5ccc8aa73871f9d12dc81c1b/645e58939a2183f84da59399_quote-1-min.jpg"
+                alt="image"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="white-bg">
+      <div class="container">
+        <div
+          class="w-100 d-flex flex-column justify-content-center align-items-center title-section"
+        >
+          <h2>what will you learn?</h2>
+          <div class="underline-title"></div>
+        </div>
+        <div class="row" style=" color: #fff">
+          <div class="col-12 col-md-6 d-flex">
+            <div class="row w-100">
+              <div class="col-12 col-lg-6">
+                <div class="card height-card">
+                  <div class="counter">
+                    <span>01</span>
+                  </div>
+                  <p>
+                    Use HDFS & Map Reduce for storing & analyzing data at scale.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card height-card">
+                  <div class="counter">
+                    <span>02</span>
+                  </div>
+                  <p>
+                    Consume streaming data using Spark Streaming, Flink, and
+                    Storm.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card height-card">
+                  <div class="counter">
+                    <span>03</span>
+                  </div>
+                  <p>
+                    Choose an appropriate data storage technology for your
+                    application.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card height-card">
+                  <div class="counter">
+                    <span>04</span>
+                  </div>
+                  <p>
+                    Analyze non- relational using data HBase,Cassandra and
+                    MongoDB.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex">
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                class="img-fluid big-image"
+                src="https://global-uploads.webflow.com/5ccc8aa73871f9d12dc81c1b/645e58939a2183f84da59399_quote-1-min.jpg"
+                alt="image"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-section-bg">
+      <div class="container">
+        <div
+          class="w-100 d-flex flex-column justify-content-center align-items-center title-section"
+        >
+          <h2 class="mt-5">The Chapter Includes</h2>
+          <div class="underline-title"></div>
+        </div>
+        <div class="row" style=" color: #fff">
+          <div class="row w-100">
+            <div class="col-12 col-lg-6">
+              <div class="card card-shadow">
+                <p>Chapter-01 Get Started Intro</p>
+                <h5 class="contant-ch">
+                  Making this the first true value generator on the internet. It
+                  of over 200 Latin words, combinde with a handful.
+                </h5>
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                      <h3>Pages: <strong class="card-value">85pages</strong></h3>
+                  </div>
+                  <div class="d-flex mx-4">
+                    <div class="dot"></div>
+                      <h3>lenght: <strong class="card-value">1 Hours 15 mins</strong></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card card-shadow">
+                <p>Chapter-02 Create a Massive Content</p>
+                <h5 class="contant-ch">
+                  Making this the first true value generator on the internet. It
+                  of over 200 Latin words, combinde with a handful.
+                </h5>
+
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                      <h3>Pages: <strong class="card-value">85pages</strong></h3>
+                  </div>
+                  <div class="d-flex mx-4">
+                    <div class="dot"></div>
+                      <h3>lenght: <strong class="card-value">1 Hours 15 mins</strong></h3>
+                  </div>
+                </div>
+
+               
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card card-shadow">
+                <p>Chapter-03 Maintaining the Creative Arcs</p>
+                <h5 class="contant-ch">
+                  Making this the first true value generator on the internet. It
+                  of over 200 Latin words, combinde with a handful.
+                </h5>
+
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                      <h3>Pages: <strong class="card-value">85pages</strong></h3>
+                  </div>
+                  <div class="d-flex mx-4">
+                    <div class="dot"></div>
+                      <h3>lenght: <strong class="card-value">1 Hours 15 mins</strong></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card card-shadow">
+                <p>Chapter-04 The Conclusion</p>
+                <h5 class="contant-ch">
+                  Making this the first true value generator on the internet. It
+                  of over 200 Latin words, combinde with a handful.
+                </h5>
+
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                      <h3>Pages: <strong class="card-value">85pages</strong></h3>
+                  </div>
+                  <div class="d-flex mx-4">
+                    <div class="dot"></div>
+                      <h3>lenght: <strong class="card-value">1 Hours 15 mins</strong></h3>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+          
+          
+        </div>
+        
+        
+      </div>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <div class="mt-5 mx-auto">
+        <button class="btn btn-primary ordertoday-btn"><span class style="margin: 0 4em;"> Start a 15-Days free Trail </span></button>
+      </div>
+        
+      <div class=" mt-4 mx-auto">
+        <p class="mb-0">Short description about each chater </p>
+      </div>
+
+      <div class=" mx-auto">
+        <p><span style=" font-weight: 500;
+          text-decoration: underline;
+          color: #1b3764; ">Have any question?</span> Contact us</p>
+      </div>
+
+    </div>
+    </section>
+
+    <section class="white-bg">
+      <div class="container">
+        <div
+          class="w-100 d-flex flex-column justify-content-center align-items-center title-section"
+        >
+          <h2 class="mt-5">Articales & Resources</h2>
+          <div class="underline-title"></div>
+        </div>
+      
+        <div class="row" style=" color: #fff">
+          <div class="row w-100">
+            <div class="col-12 col-lg-4">
+              <div class="card p-0" style="width: 18rem;">
+                <img src="https://global-uploads.webflow.com/5ccc8aa73871f9d12dc81c1b/645e58939a2183f84da59399_quote-1-min.jpg" class="card-img-top" alt="...">
+                <div class="card-body mt-1">
+                  <p class="card-text">The energy efficiency offers hydrotherapy or swim </p>
+                  <p class="font-weight-lighter mt-3">The point of using Lorem Ipsum hiter of that using making it look like other 
+                    readable will get end.
+                  </p>
+
+                  <div class="d-flex justify-content-between align-items-center mt-2">
+                    
+                    <a href="" class="m-0 secondary-btn" style="color: #1b3764; border-color: #1b3764;">Read Free Demo</a>
+                    <p>Auther - 23.05.2022 </p>
+                   
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="card p-0" style="width: 18rem;">
+                  <img src="https://global-uploads.webflow.com/5ccc8aa73871f9d12dc81c1b/645e58939a2183f84da59399_quote-1-min.jpg" class="card-img-top" alt="...">
+                  <div class="card-body mt-1">
+                    <p class="card-text">Release of Letraset sheets tools containing passages </p>
+                    <p class="font-weight-lighter mt-3">The point of using Lorem Ipsum hiter of that using making it look like other 
+                      readable will get end.
+                    </p>
+  
+                    <div class="d-flex justify-content-between align-items-center mt-2">
+                      
+                      <a href="" class="m-0 secondary-btn" style="color: #1b3764; border-color: #1b3764;">Read Free Demo</a>
+                      <p>Auther - 23.05.2022 </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-4">
+                <div class="card p-0" style="width: 18rem;">
+                  <img src="https://global-uploads.webflow.com/5ccc8aa73871f9d12dc81c1b/645e58939a2183f84da59399_quote-1-min.jpg" class="card-img-top" alt="...">
+                  <div class="card-body mt-1">
+                    <p class="card-text">The energy efficiency offers hydrotherapy or swim </p>
+                    <p class="font-weight-lighter mt-3">The point of using Lorem Ipsum hiter of that using making it look like other 
+                      readable will get end.
+                    </p>
+  
+                    <div class="d-flex justify-content-between align-items-center mt-2">
+                      
+                      <a href="" class="m-0 secondary-btn" style="color: #1b3764; border-color: #1b3764;">Read Free Demo</a>
+                      <p>Auther - 23.05.2022 </p>
+                     
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+      </div>
+
+   
+    
+    </section>
+
+    <footer>
+      <div class="container">
+
+        <div class="footer-content">
+          <p>© Drafted by Victorflow - Powered by Webflow</p>
+      </div>
+      </div>
+     
+  </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

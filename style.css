@@ -1,0 +1,204 @@
+header {
+  background-color: #1b3764;
+  /* min-height: 100vh;
+  height: auto; */
+  padding-bottom: 3em;
+}
+
+section {
+  /* min-height: 100vh;
+  height: auto; */
+  padding-bottom: 3em;
+}
+
+p{
+  margin: 0;
+}
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.brand-container i {
+  color: #ffca42;
+}
+
+.social-media-container a {
+  background-color: #fff;
+  padding: 5px;
+  margin: 0 3px;
+}
+
+.social-media-container a i {
+  color: #1b3764;
+  /* padding: 10px; */
+}
+
+.btn-primary {
+  background-color: #ffca42 !important;
+  border-radius: 0px !important;
+  border-color: #ffca42;
+  color: #1b3764 !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ffc229 !important;
+  border-color: #ffc739 !important;
+}
+
+.right-side a {
+  color: #fff;
+}
+
+#cart {
+  /* font-size: 11px; */
+  padding-right: 15px;
+  position: relative;
+}
+
+.badge {
+  background-color: #ffc229;
+  padding: 3px 3px;
+  font-size: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  right: 7px;
+  color: #1b3764;
+}
+
+#welcome {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+#welcome-dash {
+  width: 18px;
+  height: 1px;
+  background-color: #ffc229;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.secondary-btn {
+  color: #fff;
+  margin-left: 2em;
+  border-bottom: 1px solid #fff;
+}
+.secondary-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #ffc229;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+
+.third-section-bg {
+  background-color: #f4f8ff;
+}
+
+
+.underline-title {
+  margin-top: 10px;
+  width: 40px;
+  height: 3px;
+  background-color: #ffc229;
+}
+
+.title-section {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.title-section h2 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.card {
+  margin-right: 15px;
+  background-color: #fff;
+  padding: 20px;
+  width: 100% !important;
+  margin-top: 15px;
+  color: #1b3764;
+  font-weight: bold;
+
+}
+
+.card-shadow{
+
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.height-card{
+  min-height: 210px;
+  background-color: #f4f8ff;
+}
+
+.counter {
+  background-color: #ffc229;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1b3764;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.big-image{
+  max-width: 75% !important;
+}
+
+.contant-ch{
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.card-value{
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+footer {
+  background-color: #1b3764;
+  color: white;
+  text-align: center;
+  padding: 10px 0 20px;
+}
+
+.footer-content {
+  margin: 0 auto;
+  border-top: 1px solid #fff4;
+  padding-top: 20px;
+}
